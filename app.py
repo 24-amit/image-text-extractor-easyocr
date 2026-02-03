@@ -3,7 +3,7 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 import tkinter as tk
 from tkinter import filedialog
-# from PIL import Image
+from PIL import Image
 import easyocr
 
 root = tk.Tk()
@@ -16,8 +16,8 @@ file_path = filedialog.askopenfilename(
 
 if file_path:
     print(f"Selected file: {file_path}")
-    # img = Image.open(file_path)
-    # img.show()
+    img = Image.open(file_path)
+    img.show()
 else:
     print("No file selected.")
 
