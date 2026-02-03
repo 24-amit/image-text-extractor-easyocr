@@ -1,10 +1,10 @@
-###### **Text From Image – OCR Desktop App**
+**Text From Image – OCR Desktop App**
 
 A simple GUI-based application to extract text from images using Python, Tkinter, and EasyOCR.
 
 
 
-###### **Features**
+**Features**
 
 * Upload image via GUI (file dialog)
 * Supports JPG, PNG, JPEG formats
@@ -14,7 +14,7 @@ A simple GUI-based application to extract text from images using Python, Tkinter
 
 
 
-###### **Tech Stack**
+**Tech Stack**
 
 * Python
 * Tkinter (GUI)
@@ -23,16 +23,17 @@ A simple GUI-based application to extract text from images using Python, Tkinter
 
 
 
-###### **How to Run**
+**How to Run**
 
 * pip install -r requirements.txt
 * python app.py
 
 
 
-###### **Future Improvements**
+**Future Improvements**
 
 * Add PDF support
 * Copy text to clipboard
 * Save output as .txt
 * Add language selection
+
